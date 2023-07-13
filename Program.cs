@@ -11,11 +11,12 @@ namespace Exercise1
         static void Main(string[] args)
         {
             Console.Write("Enter marks in pre: ");
-            int preMarks = Convert.ToInt32(Console.ReadLine());
+            int preMarks = int.Parse(Console.ReadLine());
+
             if (preMarks > 60)
             {
                 Console.Write("Enter marks in final: ");
-                int finalMarks = Convert.ToInt32(Console.ReadLine());
+                int finalMarks = int.Parse(Console.ReadLine());
 
                 if (finalMarks > 55)
                 {
